@@ -17,7 +17,7 @@ st.sidebar.success("🟢 Ollama Connected (phi3:mini)")
 st.sidebar.info(f"📅 Date: {datetime.now().strftime('%Y-%m-%d')}")
 
 # ==========================================
-# CORE AI ASSISTANT
+# 1: CORE AI ASSISTANT
 # ==========================================
 if page == "Core AI Assistant":
     st.title("🤖 JARVIS Core Terminal")
@@ -52,7 +52,7 @@ if page == "Core AI Assistant":
                     st.error(f"Error communicating with local AI engine: {e}")
 
 # ==========================================
-# STUDENT MANAGEMENT
+# 2: STUDENT MANAGEMENT
 # ==========================================
 elif page == "Student Management":
     st.title("👥 Mentorship Student Hub")
@@ -89,7 +89,7 @@ elif page == "Student Management":
             st.success(f"Successfully added {name} to your local tracking ledger!")
 
 # ==========================================
-# CONTENT & STRATEGY
+# 3: CONTENT & STRATEGY
 # ==========================================
 elif page == "Content & Strategy":
     st.title("📈 Forex Creator Suite")
